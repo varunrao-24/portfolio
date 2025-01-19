@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio-styles.css">
+</head>
+<body>
+    <header>
+        <div class="profile-photo">
+            <img id="profileImg" src="Images/varun-mypic.jpg" alt="">
+        </div>
+
+        <!-- Modal -->
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="imgModal">
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+
+    <section id="home">
+        <h1>Sample Portfolio</h1>
+        <p> Welcome to my sample portfolio, where I showcase my skills, projects, and passion for software development.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>  I have an interest in learning new things and
+            adapting new skills. I am looking for internships
+            where I can gain some experience in the technical
+            field.</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project">
+            <h4><p>Smart gesture controlled switch system using Iot</p></h4>
+            <p>  Designed and implemented a Smart Gesture
+                Controlled Switch System utilizing IoT technology.
+                This system enables users to control electrical
+                appliances remotely through hand gestures,
+                thereby enhancing convenience and efficiency in
+                smart home. By integrating sensors,
+                microcontrollers, and IoT devices, the system
+                interprets predefined gestures without using
+                machine learning algorithms, allowing seamless
+                interaction with connected devices </p>
+        </div>
+        <div class="project">
+            <!-- <h3>Project 2</h3>
+            <p>Project description here.</p> -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          <i class="fa-solid fa-envelope"> </i>
+          Email: <a href="mailto:varunraod2005@gmail.com" target="_blank" class="no-underline">varunraod2005@gmail.com</a>
+        </p>
+        <p>
+          <i class="fa-solid fa-phone"> </i>
+          Phone: +91 1234567809
+        </p>
+        <p>
+            <i class="fa-brands fa-linkedin"></i>
+            LinkedIn: <a href="https://www.linkedin.com/in/varun-rao-deshaboina" target="_blank" class="no-underline">Varun Rao</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>© Varun Rao 2025 </p>
+    </footer>
+
+    <script src="portfolio-script.js"></script>
+</body>
+</html>
